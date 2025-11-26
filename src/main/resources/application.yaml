@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: favorite-bot
+
+telegram:
+  bot:
+    token: ${TELEGRAM_BOT_TOKEN:}
+    username: ${TELEGRAM_BOT_USERNAME:}
